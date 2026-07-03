@@ -804,7 +804,18 @@
   text-align: left;
 }
 
-.form-group input,
+.form-group input {
+  height: 48px;
+  border: 1.5px solid var(--color-border-medium);
+  border-radius: 12px;
+  padding: 0 14px;
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--color-text-dark);
+  background: var(--color-text-white);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
 .form-group textarea {
   border: 1.5px solid var(--color-border-medium);
   border-radius: 12px;
@@ -817,18 +828,25 @@
 }
 
 .form-group select {
+  height: 48px;
   border: 1.5px solid var(--color-border-medium);
   border-radius: 12px;
-  padding: 12px 36px 12px 14px;
+  padding: 0 36px 0 14px;
   font: inherit;
   font-size: 0.95rem;
   color: var(--color-text-dark);
   background: var(--color-text-white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23b35d16' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 14px center;
+  background-size: 16px;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   cursor: pointer;
+}
+
+.form-group select option {
+  background-color: var(--color-bg-card);
+  color: var(--color-text-dark);
 }
 
 .form-group input:focus,
