@@ -1,9 +1,11 @@
+@import './theme.css';
+
 :root {
   font-family: 'Inter', 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #2f1d0d;
-  background: #fffdf9;
+  color: var(--color-text-dark);
+  background: var(--color-bg-main);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,7 +20,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #fffdf9;
+  background: var(--color-bg-main);
 }
 
 #root {

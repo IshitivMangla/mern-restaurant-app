@@ -1,0 +1,38 @@
+:root {
+  /* Brand Colors */
+  --color-brand-primary: #2f1d0d;
+  --color-brand-secondary: #6e3a1b;
+  --color-brand-accent: #b35d16;
+  --color-brand-accent-hover: #91480f;
+  --color-brand-highlight: #f6b26b;
+  --color-brand-highlight-hover: #e59e56;
+  --color-brand-light-gold: #ffe0b8;
+
+  /* Backgrounds */
+  --color-bg-main: #fffdf9;
+  --color-bg-warm: #fff6e8;
+  --color-bg-card: #fffdfb;
+  --color-bg-card-alt: #fffaf4;
+  --color-bg-dark: #1e120a;
+  
+  /* Text Colors */
+  --color-text-dark: #2f1d0d;
+  --color-text-medium: #6a4e39;
+  --color-text-light: #8c6a51;
+  --color-text-white: #ffffff;
+  --color-text-warm-white: #fff8ef;
+  
+  /* Borders and Dividers */
+  --color-border-light: #f2dfcb;
+  --color-border-medium: #e7caa6;
+  
+  /* State Colors */
+  --color-success: #1a6e1a;
+  --color-success-bg: rgba(34, 139, 34, 0.08);
+  --color-success-border: #2e8b2e;
+  
+  --color-error: #b32020;
+  --color-error-bg: rgba(180, 30, 30, 0.08);
+  --color-error-border: #b22020;
+  --color-error-light: #fdf0f0;
+}
