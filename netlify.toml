@@ -1,0 +1,17 @@
+# Netlify configuration file for MERN subfolder build
+
+[build]
+  # The directory where Netlify will run the build command
+  base = "client"
+  
+  # The command to compile the React app using Vite
+  command = "npm run build"
+  
+  # The directory that Netlify will serve (relative to the base directory)
+  publish = "dist"
+
+# Redirect rules for Single Page Application (SPA) routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
